@@ -1,0 +1,34 @@
+h1 {
+    /* This is a comment */ 
+    background-color: green;
+    margin: 40px;
+    padding: 40px;
+    border: 5px solid black; 
+}
+
+aside {
+    position: absolute;
+    right: 0;
+    background-color: orange;
+    margin: 30px;
+    padding: 30px;
+    border: 5px double red;
+    display: inline-block;
+}
+
+h3 {
+    letter-spacing: 3px;
+    line-height: 1.5;
+    text-indent: 10px;
+    word-spacing: 3px;
+}
+
+a:link{
+    background-color: lightblue;
+}
+
+a:hover {
+    background-color : yellow;
+    color : blue;
+    font-size: 20px;
+}
