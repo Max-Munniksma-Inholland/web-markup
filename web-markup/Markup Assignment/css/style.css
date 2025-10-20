@@ -32,3 +32,19 @@ a:hover {
     color : blue;
     font-size: 20px;
 }
+
+ul {
+    list-style-type:upper-roman;
+}
+
+th:first-child, td:first-child{
+    background-color: blue
+}
+
+tr:nth-child(odd) {
+    background-color: green
+}
+
+tr:nth-child(even) {
+    background-color: red
+}
