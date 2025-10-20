@@ -1,0 +1,5 @@
+Student name: Max Munniksma 
+Student number: 751947
+Student class: HAINF25VT1B
+GitHub Repository: https://github.com/Max-Munniksma-Inholland/web-markup.git
+GitHub Pages URL: your github pages URL
