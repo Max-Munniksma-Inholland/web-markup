@@ -1,1 +1,208 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+
+/* Desktop */
+@media (min-width: 769px){
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #1D1D1D;
+    }
+
+    nav {
+        background-color: #19323C;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+        height: 75px;
+        font: Roboto;
+    }
+
+    nav ul {
+        display:flex;
+        align-items: center;
+        gap: 10px;
+        list-style: none;
+    }
+
+    nav ul li a {
+        color: #FF6700;
+        text-decoration: none;
+    }
+
+    nav ul li a:hover  {
+        text-decoration: underline; 
+    }
+
+    nav ul li a.active {
+        color: #FF6700;
+        text-decoration: underline;
+    }
+
+    nav ul li img {
+        height: 75px;
+        width: auto;
+        display: flex;
+
+    }
+
+    .PCBuildingImage {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 600px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .PCBuildingImage img {
+        width: 100%;
+        height: auto;
+    }
+
+    article {
+        
+        font-family: Open Sans, sans-serif;
+        font-size: 16px;
+        color: #FFFFFF;
+        
+    }
+
+    article h1{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: #19323C;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 48px;
+        border-radius: 20px;
+    }
+
+    h2 {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: #19323C;
+        color:  #FFFFFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 32px;
+        border-radius: 20px;
+    }
+    .HomeContent {
+        margin: 10px 10% 10px 10%;
+    }
+    .WelcomeSection {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+        margin-top: 40px; 
+        margin-bottom: 40px;
+    }
+
+    .WelcomeSection article{
+        flex: 2;
+    }
+
+    .WelcomeSection aside{
+        flex: 1;
+        padding: 0;
+        margin: 0;
+    }
+
+    .WelcomeSection aside img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+        object-fit: fill;
+        justify-content: right;
+    }
+
+    .CallToAction {
+        display: flex;
+        align-items: stretch;
+        gap: 40px;
+        margin-top: 40px; 
+        margin-bottom: 40px;
+        
+    }
+
+    .CallToAction h2 {
+        flex: 2;
+        display: flex;
+        margin: 0;
+    }
+
+    .CallToAction aside {
+        flex: 1;
+        display: flex;
+        align-items: stretch;
+    }
+
+    button {
+        display: flex;
+        background-color: #FF6700;
+        color:#000100;
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NextStep {
+        display: flex;
+        align-items: stretch;
+        gap: 60px;
+        margin-top: 40px; 
+        margin-bottom: 40px;
+    }
+
+    .NextStep button {
+        padding: 40px 40px;
+    }
+
+    footer {
+        background-color: #19323C;
+        display: flex;
+        align-items: center;
+        padding: 0px 10px;
+        height: 75px;
+        width: 100%;
+        font: Roboto;
+        color:#FFFFFF;
+    }
+
+    footer ul {
+        display:flex;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    footer button {
+       flex: 1;
+    }
+
+    footer img {
+        flex: 1;
+        height: 75px;
+        width: auto;
+        display: flex;
+    }
+
+    footer p {
+        flex: 1;
+    }
+
+
+} 
+
+/* Mobile */
+@media (max-width: 768px){
+
+}

@@ -1,75 +1,82 @@
 <!-- add all items from grading group 1 and 2. Search for items in group 5 that refer to css f.e. author attribute value-->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
 <body>
     <header>
         <nav id="main-nav">
             <ul>
-                <li> Home </li>  
-                <li> Part Picking </li>
-                <li> Budgeting </li> 
-                <li> Step-by-step guide </li>  
-                <li> Software Installatie </li>  
-                <li> Contact </li>
+                <li><img src="img/logo transparant.png"> </li>
+                <li><a class="active" href="home">Home</a></li>
+                <li><a href="Part Picking">Part Picking</a> </li>
+                <li><a href="Budgeting">Budgeting</a></li>
+                <li><a href="Step-by-step guide">Step-by-step guide</a></li>
+                <li><a href="Software Installatie">Software Installatie</a></li>
+                <li><a href="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <figure> 
-        <img src="img/PC Builder 1.png" alt="Person building PC" title="PC Building"/>
-        <figcaption>Person building PC</figcaption> 
-    </figure>
-
-    
-
-    <article>
-        <h1>Een PC bouwen, waar begin ik in godsnaam?</h1>
-        <p> Dat is waarschijnlijk wat je je nu afvraagt. Aangezien je hier nu bent ben je op zoek naar hoe je een computer ofwel “PC” moet bouwen. Dat brengt waarschijnlijk een hoop zorgen en hoofdpijn met zich mee, vooral als je het nog nooit gedaan hebt. Geen zorgen we hebben alles dat je nodig hebt. 
-        </p>
-    </article>
-
-    <article>
-        <h2> Welkom!</h2>
-        <p>Welkom bij het bouwen van computers, we behandelen stap voor stap hoe je van een neanderthaler naar een volledige Einstein van computers gaat. 
-        Computers zijn best complex om in elkaar te zetten is wat de meeste mensen denken. De realiteit echter is dat een computer in elkaar zetten meer lijkt op grote lego blokken met een aantal draadjes. Dus geen zorgen, jij kan het ook!
-        </p>
-        <aside>
-            <figure>
-                <img src = "img/Caveman.jpeg" alt = "Caveman" title ="Caveman">
-                <figcaption>Caveman</figcaption>
-            </figure>
-        </aside>
-    </article>
-    <section>
-        <h2>Als je klaar bent om de sprong te wagen klik dan op de volgende link:</h2>
-        <aside>
-            <button type="button"> Stap 1: Part-Picking</button>
-        </aside>
+    <section class="PCBuildingImage">
+        <img src="img/PC Builder 1.png" alt="Person building PC" title="PC Building" />
     </section>
+    <section class="HomeContent">
+        <article>
+            <h1>Een PC bouwen, waar begin ik in godsnaam?</h1>
+            <p> Dat is waarschijnlijk wat je je nu afvraagt. Aangezien je hier nu bent ben je op zoek naar hoe je een
+                computer ofwel “PC” moet bouwen. Dat brengt waarschijnlijk een hoop zorgen en hoofdpijn met zich mee,
+                vooral als je het nog nooit gedaan hebt. Geen zorgen we hebben alles dat je nodig hebt. </p>
+        </article>
 
-    <section>
+        <section class="WelcomeSection">
+            <article>
+                <h2> Welkom!</h2>
+                <p>Welkom bij het bouwen van computers, we behandelen stap voor stap hoe je van een neanderthaler naar
+                    een volledige Einstein van computers gaat.
+                    Computers zijn best complex om in elkaar te zetten is wat de meeste mensen denken. De realiteit
+                    echter is dat een computer in elkaar zetten meer lijkt op grote lego blokken met een aantal
+                    draadjes. Dus geen zorgen, jij kan het ook!
+                </p>
+            </article>
+            <aside>
+                <img src="img/Caveman.jpeg" alt="Caveman" title="Caveman">
+            </aside>
+        </section>
+
+
+        <section class="CallToAction">
+            <h2>Als je klaar bent om de sprong te wagen klik dan op de volgende link:</h2>
+            <aside>
+                <button type="button"> Stap 1: Part-Picking</button>
+            </aside>
+        </section>
+
         <h2> Of klik op een van de paginas die je interessant lijkt: </h2>
-        <ul>
-            <li> <button type="button"> Stap 2: Budgeting</button> </li>
-            <li> <button type="button"> Stap 3: Step-by-step guide</button></li>
-            <li> <button type="button"> Stap 4: Software Installatie</button></li>
-        </ul>
+
+        <section class="NextStep">
+            <button type="button"> Stap 2: Budgeting</button>
+            <button type="button"> Stap 3: Step-by-step guide</button>
+            <button type="button"> Stap 4: Software Installatie</button>
+        </section>
+
     </section>
 
-    <footer> 
-        <button type ="button"> Contact </button>
-        <figure>
-            <img src="img/logo transparant.png" alt= "Logo" title="Logo"/>
-            <figcaption>Logo</figcaption>
-        </figure>
-        <p> 2025 Beginner’s Guide to PC building, All rights reserved </p>
-    </footer>
+    <footer>
+        <ul>
+            <li><button type="button"> Contact </button></li>
+            <li><img src="img/logo transparant.png" alt="Logo" title="Logo" /></li>
+            <li><p> 2025 Beginner’s Guide to PC building, All rights reserved </p></li>
+        </ul>
     
+    </footer>
+
 </body>
+
 </html>
